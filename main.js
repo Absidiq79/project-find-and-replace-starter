@@ -1,5 +1,3 @@
-
-
 const findInput = document.querySelector(".find-input")
 const replaceInput = document.querySelector(".replace-input")
 const replaceAllButton = document.querySelector(".replace-all-button")
@@ -8,9 +6,6 @@ const rowElements = document.querySelectorAll(".row")
 function getCellElements (currentRowElement) {
     return currentRowElement.querySelectorAll(".cell")
 }
-
-
-
 
 replaceAllButton.addEventListener('click', function() {
    let searchString = findInput.value;
